@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="10cm" height="10cm"  viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-
-  <path d="M1 1 L3 1 M2 1 L2 2 L3 2" fill="transparent" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5"/>
-
-</svg>
