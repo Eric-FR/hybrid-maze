@@ -1,6 +1,6 @@
 difference (){
-    cylinder(20, 10, 10);
+    cylinder(40, 20, 20);
     rotate([45, -35.26, 0]){
-        cube(20);
+        cube(40);
     }    
 }    

@@ -92,7 +92,6 @@ def generate_one_try(n, branching, verbose=False):
                             maze_bulk[tuple([a*b for a, b in zip(face, new_connexion)])] = True
                             maze_bulk[tuple([a*b for a, b in zip(face, new_node)])] = True
                         # if outlet is reached (node in [2*n-1, 2*n-1, 2*n-1]), set reach_end to True
-                        #if (new_node[0] == end_node[0]) and (new_node[1] == end_node[1]) and (new_node[2] == end_node[2]):
                         if (new_node == end_node).all():
                             reach_end = True
                         else:
@@ -309,8 +308,8 @@ if __name__ == "__main__":
     save_6ways_node(scadfilename, corridor_spacing, corridor_width, material_thickness, maze_gen[1])
     
     if verbose:
-        print('Succes' \
-        'nMaze size: {}, branching: {}, SVG file: {}, SCAD file: {}, spacing: {}mm, relative width: {}%, material thickness: {}mm'\
+        print('Succes:\n\
+Maze size: {}, branching: {}, SVG file: {}, SCAD file: {}, spacing: {}mm, relative width: {}%, material thickness: {}mm'\
             .format(maze_size, branching, svgfilename, scadfilename, corridor_spacing, corridor_width, material_thickness))
     else:
         print(f"Success: output saved to {svgfilename} and {scadfilename}")
