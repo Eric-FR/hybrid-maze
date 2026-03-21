@@ -9,6 +9,8 @@ This project generates a unique type of 3D maze where the maze is defined by its
 Inspired by an article in "La Recherche" magazine from the late 80s, originally programmed in Turbo Pascal.
 Also known as Oskar's cube maze
 
+![Hybrid Maze sample](hybrid_maze.jpg)
+
 ## Features
 
 - Generates solvable 3D mazes with 2D projections
