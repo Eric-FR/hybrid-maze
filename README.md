@@ -44,13 +44,13 @@ pip install numpy
 Run the script with default parameters:
 
 ```bash
-python "hybrid maze.py"
+python hybrid-maze.py
 ```
 
 Or with custom options:
 
 ```bash
-python "hybrid maze.py" --n 7 --branching 0.05 --svg maze_faces.svg --scad navigation_node.scad --spacing 12 --width 50 --thickness 4 -v
+python hybrid-maze.py --n 7 --branching 0.05 --svg maze_faces.svg --scad navigation_node.scad --spacing 12 --width 50 --thickness 4 -v
 ```
 
 ### Options
