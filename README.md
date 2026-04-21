@@ -95,6 +95,10 @@ burn = 0 ; spacing = 1
 
 ![SVG processing in Inkscape](svg_inkscape.png)
 
+## Artificial intelligence
+
+AI (Claude/Copilot Free) was used to write the code related to script parameters management. AI was also used to prepare Github publication.
+
 ## License
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
